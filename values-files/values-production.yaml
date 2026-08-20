@@ -1,0 +1,7 @@
+---
+
+envAlias: production
+envAliasJob: Production
+envGroup: prod
+pleasePaymentWebDomain: web-prod2.please-payment.local
+

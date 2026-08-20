@@ -1,0 +1,30 @@
+web:
+  pods:
+    replicas: 1
+
+    resources:
+      limits:
+        cpu: 200m
+        memory: 250Mi
+      requests:
+        cpu: 100m
+        memory: 100Mi
+
+    env:
+      - name: ENV_GROUP
+        value: 'prod'
+
+      - name: ENV_RUN
+        value: 'Production'
+
+      - name: NODE_ENV
+        value: 'Production'
+
+      - name: NEXT_PUBLIC_API_URL
+        value: 'https://api.please-payment.com'
+
+      - name: BACKEND_URL
+        value: 'http://please-payment-prod-onix-api'
+
+      - name: NEXT_PUBLIC_PROVIDER_URL
+        value: 'https://dev-hubs.com'

@@ -1,0 +1,15 @@
+apiVersion: v2
+name: helm-onix
+description: A Helm chart for Dev-Hubs Webs
+
+type: application
+version: 1.0.0
+appVersion: "1.0"
+
+dependencies:
+  ## Please Payment Web ###
+  - name: "generic-app"
+    alias: web
+    condition: web.enabled
+    repository: "https://charts.visonneau.fr/"
+    version: "0.0.14"
