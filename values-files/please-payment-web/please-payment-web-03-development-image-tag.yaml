@@ -2,4 +2,4 @@
 web:
   pods:
     image:
-      tag: "main-40cab33"
+      tag: "develop-d316ff8"
