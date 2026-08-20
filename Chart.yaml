@@ -9,7 +9,13 @@ appVersion: "1.0"
 dependencies:
   ## Please Payment Web ###
   - name: "generic-app"
-    alias: web
-    condition: web.enabled
+    alias: please-payment
+    condition: please-payment.enabled
+    repository: "https://charts.visonneau.fr/"
+    version: "0.0.14"
+
+  - name: "generic-app"
+    alias: please-protect-portal
+    condition: please-protect-portal.enabled
     repository: "https://charts.visonneau.fr/"
     version: "0.0.14"

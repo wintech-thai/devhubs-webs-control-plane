@@ -1,5 +1,5 @@
 
-web:
+please-payment:
   pods:
     image:
       tag: "main-40cab33"

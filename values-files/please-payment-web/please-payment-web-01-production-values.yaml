@@ -1,4 +1,4 @@
-web:
+please-payment:
   pods:
     replicas: 1
 
