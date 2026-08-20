@@ -10,9 +10,9 @@ spec:
   ingressClassName: nginx
   tls:
     - hosts:
-      - {{ .Values.pleaseProtectPortalDomain }}
+      - {{ .Values.pleaseProtectWebDomain }}
   rules:
-    - host: {{ .Values.pleaseProtectPortalDomain }}
+    - host: {{ .Values.pleaseProtectWebDomain }}
       http:
         paths:
           - path: /
