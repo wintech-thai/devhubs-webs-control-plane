@@ -19,6 +19,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: devhubs-webs-{{ .Values.envGroup }}
+                name: devhubs-webs-{{ .Values.envGroup }}-please-payment-web
                 port:
                   number: 80
