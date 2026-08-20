@@ -19,3 +19,9 @@ dependencies:
     condition: please-protect-portal.enabled
     repository: "https://charts.visonneau.fr/"
     version: "0.0.14"
+
+  - name: "generic-app"
+    alias: please-scan-web
+    condition: please-scan-web.enabled
+    repository: "https://charts.visonneau.fr/"
+    version: "0.0.14"
