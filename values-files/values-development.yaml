@@ -6,4 +6,4 @@ envGroup: dev
 
 pleasePaymentWebDomain: web-dev.please-payment.local
 pleaseProtectWebDomain: web-dev.please-protect.local
-
+pleaseScanWebDomain: web-dev.please-scan.local
