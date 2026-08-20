@@ -7,3 +7,4 @@ envGroup: prod
 pleasePaymentWebDomain: web-prod.please-payment.local
 pleaseProtectWebDomain: web-prod.please-protect.local
 pleaseScanWebDomain: web-prod.please-scan.local
+devHubsWebDomain: web-prod.dev-hubs.local
