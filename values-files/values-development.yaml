@@ -1,0 +1,8 @@
+---
+
+envAlias: development
+envAliasJob: Development
+envGroup: dev
+
+pleasePaymentWebDomain: web-dev2.please-payment.local
+
