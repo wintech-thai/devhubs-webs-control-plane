@@ -3,5 +3,5 @@
 envAlias: production
 envAliasJob: Production
 envGroup: prod
-pleasePaymentWebDomain: web-prod2.please-payment.local
+pleasePaymentWebDomain: web-prod.please-payment.local
 
