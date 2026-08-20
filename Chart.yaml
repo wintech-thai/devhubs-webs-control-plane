@@ -25,3 +25,9 @@ dependencies:
     condition: please-scan-web.enabled
     repository: "https://charts.visonneau.fr/"
     version: "0.0.14"
+
+  - name: "generic-app"
+    alias: dev-hubs-web
+    condition: dev-hubs-web.enabled
+    repository: "https://charts.visonneau.fr/"
+    version: "0.0.14"
