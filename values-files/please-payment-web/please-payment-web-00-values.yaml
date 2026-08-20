@@ -1,7 +1,7 @@
 
-web:
+please-payment:
   enabled: true
-  nameOverride: web
+  nameOverride: please-payment-web
 
   ingress:
     enabled: false
