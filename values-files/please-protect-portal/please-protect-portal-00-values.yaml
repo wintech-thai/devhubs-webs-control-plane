@@ -20,7 +20,7 @@ please-protect-portal:
     #  periodSeconds: 5
 
     image:
-      name: asia-southeast1-docker.pkg.dev/its-artifact-commons/please-protect/please-protect-portal
+      name: pjamenaja/please-protect-portal
 
   service:
     enabled: true
