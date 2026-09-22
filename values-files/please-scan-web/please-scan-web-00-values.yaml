@@ -20,7 +20,7 @@ please-scan-web:
     #  periodSeconds: 5
 
     image:
-      name: asia-southeast1-docker.pkg.dev/its-artifact-commons/please-scan/please-scan-web
+      name: pjamenaja/please-scan-web
 
   service:
     enabled: true

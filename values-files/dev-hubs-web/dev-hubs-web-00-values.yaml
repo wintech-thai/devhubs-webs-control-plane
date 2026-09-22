@@ -20,7 +20,7 @@ dev-hubs-web:
     #  periodSeconds: 5
 
     image:
-      name: asia-southeast1-docker.pkg.dev/its-artifact-commons/dev-hubs/dev-hubs-web
+      name: pjamenaja/dev-hubs-web
 
   service:
     enabled: true
