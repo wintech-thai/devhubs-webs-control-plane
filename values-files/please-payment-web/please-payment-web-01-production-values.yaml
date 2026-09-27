@@ -26,5 +26,8 @@ please-payment:
       - name: BACKEND_URL
         value: 'http://please-payment-prod-onix-api'
 
+      - name: ADMIN_DOCS_URL
+        value: 'https://admin.please-payment.com'
+
       - name: NEXT_PUBLIC_PROVIDER_URL
         value: 'https://dev-hubs.com'
