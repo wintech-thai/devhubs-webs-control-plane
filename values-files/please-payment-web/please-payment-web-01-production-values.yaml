@@ -31,3 +31,39 @@ please-payment:
 
       - name: NEXT_PUBLIC_PROVIDER_URL
         value: 'https://dev-hubs.com'
+
+      # Contact Us form — Cloudflare Turnstile + SMTP (item 5, x080).
+      # TODO: TURNSTILE_SITE_KEY below is still the DEV widget's key (domain:
+      # localhost) — it will fail verification on the real prod domain.
+      # Replace with the client's own production Turnstile widget's site key
+      # before this goes live (see please-payment-web-external-secret.yaml
+      # for the matching secret key, which the client manages separately).
+      - name: TURNSTILE_SITE_KEY
+        value: '0x4AAAAAAFKvgcfwhyOrzesI'
+
+      - name: SMTP_HOST
+        value: 'smtp-relay.gmail.com'
+
+      - name: SMTP_PORT
+        value: '587'
+
+      - name: CONTACT_TO_EMAIL
+        value: 'contact@dev-hubs.com'
+
+      - name: TURNSTILE_SECRET_KEY
+        valueFrom:
+          secretKeyRef:
+            name: please-payment-web-secrets
+            key: TURNSTILE_SECRET_KEY
+
+      - name: SMTP_USER
+        valueFrom:
+          secretKeyRef:
+            name: please-payment-web-secrets
+            key: SMTP_USER
+
+      - name: SMTP_PASSWORD
+        valueFrom:
+          secretKeyRef:
+            name: please-payment-web-secrets
+            key: SMTP_PASSWORD
