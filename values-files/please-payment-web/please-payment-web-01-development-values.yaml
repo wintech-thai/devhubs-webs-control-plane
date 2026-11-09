@@ -67,3 +67,9 @@ please-payment:
           secretKeyRef:
             name: please-payment-web-secrets
             key: SMTP_PASSWORD
+
+      - name: PP_API_KEY
+        valueFrom:
+          secretKeyRef:
+            name: please-payment-web-secrets
+            key: PP_API_KEY
