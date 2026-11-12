@@ -2,4 +2,4 @@
 please-payment:
   pods:
     image:
-      tag: "main-997e5f4"
+      tag: "develop-9cd1dc5"
