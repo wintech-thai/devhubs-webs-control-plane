@@ -23,9 +23,9 @@ please-payment:
       - name: NEXT_PUBLIC_API_URL
         value: 'https://api-dev.please-payment.com'
 
-      # Internal short name never resolves across namespaces (confirmed ENOTFOUND in pod logs, same bug as prod)
+      # Public domain hits a self-signed cert from inside the cluster — use the namespace-qualified internal service instead
       - name: BACKEND_URL
-        value: 'https://api-dev.please-payment.com'
+        value: 'http://please-payment-dev-onix-api.please-payment-development.svc.cluster.local'
 
       - name: ADMIN_DOCS_URL
         value: 'https://admin-dev.please-payment.com'
