@@ -24,7 +24,7 @@ please-payment:
         value: 'https://api.please-payment.com'
 
       - name: BACKEND_URL
-        value: 'https://api.please-payment.com'
+        value: 'http://please-payment-prod-onix-api.please-payment-production.svc.cluster.local'
 
       - name: ADMIN_DOCS_URL
         value: 'https://admin.please-payment.com'
